@@ -1,18 +1,15 @@
-import { Counter } from './Counter'
+import React from 'react';
+import './index.css';
+import App from './App';
+import { Provider } from 'react-redux';
+import { store } from '../../store';
 
-export { Page }
-
-function Page() {
-  return (
-    <>
-      <h1>Welcome</h1>
-      This page is:
-      <ul>
-        <li>Rendered to HTML.</li>
-        <li>
-          Interactive. <Counter />
-        </li>
-      </ul>
-    </>
-  )
+export {Page}
+function Page()
+{
+ return(
+      <Provider store={store}>
+          <App />
+      </Provider>  
+  );
 }

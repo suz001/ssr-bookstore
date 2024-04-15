@@ -1,0 +1,56 @@
+/* Base card container styles */
+.book-card {
+    background-color: #edf2f7; /* bg-indigo-50 */
+    padding: 1.75rem; /* p-7 */
+    margin: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.3s ease; /* hover:bg-indigo-100 */
+    /* Hover state */
+    &:hover {
+      background-color: #e2e8f0; /* bg-indigo-100 */
+    }
+  }
+  
+  /* Book details container */
+  .book-details {
+    flex: 1; /* Take remaining space */
+  }
+  
+  /* Book title styles */
+  .book-title {
+    font-size: 1.25rem; /* text-xl */
+    font-weight: bold; /* font-bold */
+    color: #4a5568; /* text-gray-700 */
+  }
+  
+  /* Book price and category styles */
+  .book-info {
+    font-size: 1rem; /* text-lg */
+    font-weight: normal; /* font-normal */
+    color: #718096; /* text-gray-600 */
+  }
+  
+  /* Additional spacing between elements */
+  .book-info + .book-info {
+    margin-left: 1.25rem; /* ml-10 */
+  }
+  
+  /* Flex container for action buttons */
+  .book-actions {
+    display: flex;
+    gap: 1rem; /* gap-4 */
+  }
+/* Icon styles */
+.icon {
+    height: 1.5rem; /* h-6 */
+    width: 1.5rem; /* w-6 */
+    stroke: #000; /* stroke="currentColor" */
+    stroke-width: 2; /* strokeWidth={2} */
+  }
+  
+
+  
+
+  

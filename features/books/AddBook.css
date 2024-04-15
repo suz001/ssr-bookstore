@@ -1,0 +1,14 @@
+/* Container styles for fixed position */
+.fixed-container {
+    position: fixed; /* Fixed position */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the div using translate */
+    background-color: #fff; /* bg-white */
+    padding: 1.5rem; /* p-6 */
+    border-radius: 0.5rem; /* rounded-lg */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-lg */
+    width: 30%; /* Set width to 80% */
+    max-width: 600px; /* Set maximum width to 600px */
+   
+  }

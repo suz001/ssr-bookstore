@@ -1,0 +1,21 @@
+/* Flex container styles */
+.flex-container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+  }
+  
+  /* Button styles */
+  .button {
+    background-color: #2C7A7B; /* bg-purple-800 */
+    color: #fff; /* text-white */
+    padding: 0.5rem 2.5rem; /* py-2 px-10 */
+    margin-top: 2.5rem; /* my-10 */
+    border-radius: 0.25rem; /* rounded */
+    transition: background-color 0.3s ease; /* hover:bg-purple-900 */
+    border: none;
+    /* Hover state */
+    &:hover {
+      background-color: #205C5D; /* hover:bg-purple-900 */
+    }
+  }
+  

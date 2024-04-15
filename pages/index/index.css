@@ -1,0 +1,25 @@
+.main-container{
+  margin-left: auto; /* Auto left margin for centering */
+  margin-right: auto; /* Auto right margin for centering */
+  padding-left: 0.5rem; /* Padding on the left side */
+  padding-right: 0.5rem; /* Padding on the right side */
+  max-width: 72rem; /* Maximum width of the container */
+  padding-top: 2.5rem; /* Padding at the top */
+  padding-bottom: 4rem; /* Padding at the bottom */
+}
+  /* Heading styles */
+  .heading {
+    text-align: center; /* text-center */
+    font-weight: bold; /* font-bold */
+    font-size: 1.5rem; /* text-2xl */
+    color: #2b3148; /* text-stone-700 */
+  }
+
+  .card-item{
+
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+    min-height: 100vh; /* Minimum height of the container to fill the viewport */
+    padding: 2rem; /* Padding around the container */
+    background-color: #f3f4f6; /* Background color of the container */
+  }
