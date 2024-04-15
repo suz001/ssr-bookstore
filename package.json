@@ -30,5 +30,8 @@
     "vite": "^4.4.9",
     "vite-plugin-ssr": "^0.4.142"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
